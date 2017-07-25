@@ -29,6 +29,10 @@ displayitem = function(item){
 
 document.getElementById('form').onsubmit = function(event){
 	event.preventDefault();
+	if((inputnew.value == "") || (inputnew.value.length < 1)){
+		alert("Todo item must not be blank and it must be longer than two characters.");
+		return;
+	}
 	store.push( inputnew.value.trim());
 	inputnew.value = "";
 	displaychanges();

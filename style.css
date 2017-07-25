@@ -14,17 +14,20 @@ body{
 
 }
 
+
 input,button{
 	width: 200px;
 	margin: 10px;
 }
 
-button.delete. button.edit, button.MarkAsDone{
+button.delete, button.edit, button.MarkAsDone{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100px;
 	color: white;
 	font-weight: bold;
+	border: none; 
+	border-radius: 3px;
 }
 
 button.delete{
