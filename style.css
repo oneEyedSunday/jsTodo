@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: Arial;
+	background-color: black;
+}
+
+.container{
+	margin: 20px;
+	padding: 5px 20px;
+	border: 10px solid black;
+	background-color: white;
+
+}
+
+input,button{
+	width: 200px;
+	margin: 10px;
+}
+
+button.delete. button.edit, button.MarkAsDone{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100px;
+	color: white;
+	font-weight: bold;
+}
+
+button.delete{
+	background-color: red;
+}
+
+button.MarkAsDone{
+	background-color: green;
+}
+
+button.Edit{
+	background-color: blue;
+}
+
+span{
+	margin-right: 10px;
+}
+
+span.status{
+	color: red;
+}
+
+li{
+	list-style: none;
+	text-transform: uppercase;
+}
